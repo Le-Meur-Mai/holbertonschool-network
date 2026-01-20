@@ -1,4 +1,3 @@
 #!/usr/bin/env bash
 # The following script display all the ports that are listening
-ss -tulnp
-ss -xlnp
+sudo netstat -plnt
